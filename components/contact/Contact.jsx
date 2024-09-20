@@ -39,7 +39,7 @@ const Contact = () => {
               </span>
 
               <a
-                href="mailto:soumyajitbasak.work@gmail.com"
+                href="mailto:abhishektiwari93.work@gmail.com"
                 className="contact__button"
               >
                 Write Me{" "}
