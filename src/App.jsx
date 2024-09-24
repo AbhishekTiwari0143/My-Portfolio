@@ -1,18 +1,19 @@
-import './App.css';
-import Header from '../components/header/Header';
-import Home from '../components/home/Home';
-import About from '../components/about/About';
-import Skills from '../components/skills/Skills';
+import "./App.css";
+import Header from "../components/header/Header";
+import Home from "../components/home/Home";
+import About from "../components/about/About";
+import Skills from "../components/skills/Skills";
 // import Experience from '../components/experience/Experience';
-import Qualification from '../components/qualification/Qualification';
-import Work from '../components/work/Work';
+import Qualification from "../components/qualification/Qualification";
+import Work from "../components/work/Work";
 // import Testimonials from '../components/testimonials/Testimonials';
-import Contact from '../components/contact/Contact';
-import Footer from '../components/footer/Footer';
-import ScrollUp from '../components/scrollup/ScrollUp';
+import Contact from "../components/contact/Contact";
+import Footer from "../components/footer/Footer";
+import ScrollUp from "../components/scrollup/ScrollUp";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
-
   return (
     <>
       <Header />
@@ -30,8 +31,10 @@ function App() {
 
       <Footer />
       <ScrollUp />
+      <Analytics />
+      <SpeedInsights />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
