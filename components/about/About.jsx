@@ -25,7 +25,7 @@ const About = () => {
           </p>
 
           <a
-            download=""
+            download="AbhishekRS.pdf"
             href={"./AbhishekRS.pdf"}
             className="button button--flex"
           >
