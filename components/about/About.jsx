@@ -26,7 +26,7 @@ const About = () => {
 
           <a
             download=""
-            href={"AbhishekRS.pdf"}
+            href={"./AbhishekRS.pdf"}
             className="button button--flex"
           >
             Download CV
